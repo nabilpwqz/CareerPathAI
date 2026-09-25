@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="needleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#090D16"/>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#glowGrad)" opacity="0.15"/>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="none" stroke="url(#bgGrad)" stroke-width="2" opacity="0.6"/>
+
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#10B981" stroke-width="2.5" stroke-dasharray="4 2" opacity="0.6"/>
+  <polygon points="32,14 36.5,30 32,32 27.5,30" fill="url(#bgGrad)"/>
+  <polygon points="32,50 36.5,34 32,32 27.5,34" fill="url(#needleGrad)"/>
+
+  <circle cx="32" cy="32" r="4.5" fill="#090D16" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="32" cy="32" r="2" fill="#34D399"/>
+  <path d="M48 10 Q48 16 54 16 Q48 16 48 22 Q48 16 42 16 Q48 16 48 10 Z" fill="#F59E0B"/>
+</svg>
