@@ -88,3 +88,5 @@ export function clearAuthCookie(response: NextResponse) {
     maxAge: 0,
   });
 }
+
+// [build-audit: 66] verified code formatting
