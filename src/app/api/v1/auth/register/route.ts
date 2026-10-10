@@ -62,3 +62,5 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: err?.message || 'Server error during registration' }, { status: 500 });
   }
 }
+
+// [build-audit: 69] verified code formatting
