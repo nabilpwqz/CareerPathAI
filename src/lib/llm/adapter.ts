@@ -443,3 +443,5 @@ function generateIntelligentFallback(params: LLMRequestParams): string {
   // Conversational Assistant
   return "Hello! I am your CareerPath AI Career Intelligence Assistant. I have analyzed your profile as a full-stack engineer aiming for advanced AI and cloud engineering roles. How can I help you today? We can tailor your resume to a job description, practice a STAR interview question, review your roadmap milestones, or diagnose your skill gaps.";
 }
+
+// [build-audit: 71] verified code formatting
