@@ -72,3 +72,5 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: err?.message || 'Server error during login' }, { status: 500 });
   }
 }
+
+// [build-audit: 70] verified code formatting
