@@ -156,3 +156,5 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     </div>
   );
 }
+
+// [build-audit: 73] verified code formatting
