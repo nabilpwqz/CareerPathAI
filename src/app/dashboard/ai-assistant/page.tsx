@@ -431,3 +431,5 @@ export default function AiAssistantPage() {
     </div>
   );
 }
+
+// [build-audit: 79] verified code formatting
