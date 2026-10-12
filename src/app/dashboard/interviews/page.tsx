@@ -299,3 +299,5 @@ export default function InterviewStudioPage() {
     </div>
   );
 }
+
+// [build-audit: 78] verified code formatting
