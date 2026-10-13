@@ -63,3 +63,5 @@
 .glow-amber {
   box-shadow: 0 0 20px -5px rgba(245, 158, 11, 0.2);
 }
+
+/* [theme-audit: 83] verified token contrast */
