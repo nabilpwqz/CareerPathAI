@@ -1,4 +1,4 @@
-# CareerPath AI — Autonomous Career Intelligence Platform
+# CareerPath AI - Autonomous Career Intelligence Platform
 
 <div align="center">
 
