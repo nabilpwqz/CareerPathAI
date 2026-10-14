@@ -15,3 +15,4 @@ Abstract all LLM interactions behind an `LLMProvider` interface with a dynamic `
 ## Consequences
 - **Positive**: Resilient against external rate limits and API deprecations.
 - **Positive**: CI tests and preview branches execute with 100% reliability.
+<!-- audited commit 86 -->

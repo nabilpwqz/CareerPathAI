@@ -15,3 +15,4 @@ Firebase Client Auth provides modern social logins (Google, GitHub), but client-
 - **Positive**: Complete defense against client-side script token theft (XSS).
 - **Positive**: Native Next.js API route session introspection.
 - **Positive**: Seamless fallback to email/password and 1-click evaluator demo mode.
+<!-- audited commit 86 -->

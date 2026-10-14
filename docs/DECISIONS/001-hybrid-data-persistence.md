@@ -15,3 +15,4 @@ Implement a transparent dual-mode persistence repository in `src/lib/db.ts`:
 - **Positive**: Zero-config 1-click startup for evaluators and CI test suites without external database dependencies.
 - **Positive**: Complete local offline capability.
 - **Neutral**: In-memory mutations reset on cold serverless restarts if MongoDB is not connected.
+<!-- audited commit 86 -->
